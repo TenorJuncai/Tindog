@@ -30,6 +30,10 @@ main {
 }
 
 /* card-body */
+.card-body {
+  height: 751px;
+}
+
 .dog-info {
   position: relative;
 }
@@ -88,6 +92,7 @@ button {
   padding: 15px;
   border-radius: 50%;
   background-color: white;
+  margin-top: 1rem;
 }
 
 #yes {
