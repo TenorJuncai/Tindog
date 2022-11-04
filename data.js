@@ -1,7 +1,7 @@
 export const dogs = [
   {
     name: "Rex",
-    avatar: "images/dog-rex.jpg",
+    avatar: "images/dog-rex.webp",
     age: 25,
     bio: "Art. Literature. Natural wine. Yoga.",
     hasBeenSwiped: false,
@@ -9,7 +9,7 @@ export const dogs = [
   },
   {
     name: "Bella",
-    avatar: "images/dog-bella.jpg",
+    avatar: "images/dog-bella.webp",
     age: 43,
     bio: "Yup, that's my owner. U can meet him if you want",
     hasBeenSwiped: false,
@@ -17,7 +17,7 @@ export const dogs = [
   },
   {
     name: "Teddy",
-    avatar: "images/dog-teddy.jpg",
+    avatar: "images/dog-teddy.webp",
     age: 30,
     bio: "How you doin?",
     hasBeenSwiped: false,
@@ -33,7 +33,7 @@ export const dogs = [
   },
   {
     name: "Brandon",
-    avatar: "images/dog-brandon.jfif",
+    avatar: "images/dog-brandon.webp",
     age: 21,
     bio: "I love chicken, I hate broccoli",
     hasBeenSwiped: false,
@@ -41,7 +41,7 @@ export const dogs = [
   },
   {
     name: "Ashley",
-    avatar: "images/dog-ashley.jpg",
+    avatar: "images/dog-ashley.webp",
     age: 29,
     bio: "I don't do cheap bear.",
     hasBeenSwiped: false,
@@ -49,7 +49,7 @@ export const dogs = [
   },
   {
     name: "Monica",
-    avatar: "images/dog-monica.jpg",
+    avatar: "images/dog-monica.webp",
     age: 19,
     bio: "Do you like my dress?",
     hasBeenSwiped: false,
