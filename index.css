@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  max-width: 600px;
+  text-align: center;
+  margin: 2rem auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 2rem 0;
+  border-radius: 5px;
+}
+
+/* card header */
+.card-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-icon {
+  width: 34px;
+  height: 34px;
+}
+
+.main-logo {
+  width: 84px;
+  height: 42px;
+}
+
+/* card-body */
+.dog-info {
+  position: relative;
+}
+
+.avatar {
+  width: 95%;
+  height: 751px;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+#dog-name-age {
+  position: absolute;
+  left: 2rem;
+  bottom: 5rem;
+  color: white;
+}
+
+.dog-bio {
+  position: absolute;
+  left: 2rem;
+  color: white;
+  bottom: 2.5rem;
+  font-weight: 200;
+}
+
+#like,
+#dislike {
+  position: absolute;
+  width: 234px;
+  height: 116px;
+  transform: rotate(-30deg);
+  top: 5rem;
+  left: 2rem;
+  display: none;
+}
+
+.empty-message-box {
+  height: 80%;
+}
+
+.empty-message {
+  padding-top: 15rem;
+}
+
+/*card footer*/
+.card-footer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 1rem;
+}
+
+button {
+  border: none;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+#yes {
+  box-shadow: 0px 10px 20px #ccf1e6;
+}
+#yes:hover {
+  cursor: pointer;
+  background: #dbfff4;
+}
+
+#no {
+  box-shadow: 0px 10px 20px #e9e9ea;
+}
+#no:hover {
+  cursor: pointer;
+  background: #ffe7ef;
+}

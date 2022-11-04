@@ -1,0 +1,60 @@
+export const dogs = [
+  {
+    name: "Rex",
+    avatar: "images/dog-rex.jpg",
+    age: 25,
+    bio: "Art. Literature. Natural wine. Yoga.",
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+  {
+    name: "Bella",
+    avatar: "images/dog-bella.jpg",
+    age: 43,
+    bio: "Yup, that's my owner. U can meet him if you want",
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+  {
+    name: "Teddy",
+    avatar: "images/dog-teddy.jpg",
+    age: 30,
+    bio: "How you doin?",
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+  {
+    name: "Alex",
+    avatar: "images/dog-alex.webp",
+    age: 28,
+    bio: "It's a pleasure to meet you!",
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+  {
+    name: "Brandon",
+    avatar: "images/dog-brandon.jfif",
+    age: 21,
+    bio: "I love chicken, I hate broccoli",
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+  {
+    name: "Ashley",
+    avatar: "images/dog-ashley.jpg",
+    age: 29,
+    bio: "I don't do cheap bear.",
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+  {
+    name: "Monica",
+    avatar: "images/dog-monica.jpg",
+    age: 19,
+    bio: "Do you like my dress?",
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+];
+
+// Remember to export the data!
